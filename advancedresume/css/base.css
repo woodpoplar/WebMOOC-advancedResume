@@ -1,0 +1,42 @@
+/* 定义字体 */
+@font-face {
+    font-family: "刀隶体";
+    font-weight: 400;
+    src: url("../fonts/PCO1IxT6KoAe.woff2") format("woff2"),
+        url("../fonts/PCO1IxT6KoAe.woff") format("woff");
+    font-display: swap;
+}
+/* 字体图标的引入 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.ttf') format('truetype');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 页面的版心 */
+.center-wrap {
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* 清除浮动 */
+.clearfix {
+    overflow: hidden;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.color-red{
+    color: red;
+}

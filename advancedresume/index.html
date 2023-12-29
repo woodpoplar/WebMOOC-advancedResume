@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advancedresume</title>
+    <!-- 将元素的默认样式进行复位 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 放置一些公共类，字体图标等 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 页面的主要样式 -->
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="site-head">
+        <div class="center-wrap">
+            <!-- NAMELOGO -->
+            <h1>木头杨先生</h1>
+            <!-- 个人照片 -->
+            <img class="head-img" src="images/self.jpg" alt="个人照片">
+            <!-- Link -->
+            <div class="links">
+                <a href="#introduce">个人介绍</a>
+                <span>|</span>
+                <a href="#programs">项目介绍</a>
+                <span>|</span>
+                <a href="#message">给我留言</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 基本介绍及联系方式Banner -->
+    <section class="basic-contact center-wrap" id="introduce">
+        <h2>职业发展愿景</h2>
+        <textarea placeholder="职业发展愿景描述正文" cols="115" rows="3" class="text">产品经理，开发出一个能在中国游戏史上留名的经典游戏</textarea>
+        <!-- 联系方式 -->
+        <address class="email-tel">
+            <span><i class="iconfont">&#xe908;</i>1234567890@qq.com</span>
+            <span><i class="iconfont">&#xe797;</i>12345678900</span>
+        </address>
+    </section>
+
+    <!-- 个人技能介绍、基本经历介绍 -->
+    <section class="skills-experiences center-wrap">
+        <!-- 技能 -->
+        <div class="skills">
+            <h3>技能掌握</h3>
+            <ul>
+                <li>
+                    <div class="word">数据结构与算法</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">操作系统</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">计算机网络</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">数据库</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">html</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">css</div>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <div class="word">js</div>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- 经历 -->
+        <div class="experiences" id="tab">
+            <!-- Tab 菜单 -->
+            <nav class="tabnav clearfix">
+                <ul class="list">
+                    <li class="current" data-n="教育">教育经历</li>
+                    <li data-n="工作">工作经历</li>
+                    <li></li>
+                </ul>
+            </nav>
+            <!-- Tab内容 -->
+            <div class="tabcon show" data-n="教育">
+                <div class="timeli">
+                    <ul>
+                        <li>2004-2007</li>
+                        <li>2007-2011</li>
+                        <li>2011-2014</li>
+                        <li>2016-2020</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <p>四川XX中学</p>
+                    <p>西南XX大学</p>
+                    <p>西南XX研究生</p>
+                    <p>攻读博士</p>
+                </div>
+            </div>
+            <div class="tabcon" data-n="工作">
+                <div class="timeli">
+                    <ul>
+                        <li>2020-2021</li>
+                        <li>2021-2022</li>
+                        <li>2022-2023</li>
+                        <li>2023-2024</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目介绍模块 -->
+    <section class="program-introduction clearfix" id="programs">
+        <div class="program">
+            <div class="demoImg fill"></div>
+            <div class="center-wrap-other">
+                <img class="logoImg" src="images/muyunyou.jpg" alt="">
+                <div class="content">
+                    <div class="bd clearfix">
+                        <h3>项目《慕云游》主页开发</h3>
+                        <span>2023-10-01</span>
+                    </div>
+                    <div class="hd">
+                        <p>
+                            前端Coder | XXXX
+                        </p>
+                        <textarea>项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</textarea>
+                        <p>
+                            HTML | CSS | JS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="demoImg" style=" visibility: visible;">
+                <img src="images/demo_1.jpg" alt="">
+            </div>
+        </div>
+        <div class="program">
+            <div class="demoImg fill"></div>
+            <div class="center-wrap-other">
+                <img class="logoImg" src="images/mujiaju.jpg" alt="">
+                <div class="content">
+                    <div class="bd clearfix">
+                        <h3>项目《慕家居》</h3>
+                        <span>2023-10-10</span>
+                    </div>
+                    <div class="hd">
+                        <p>
+                            前端Coder | xxxxxx
+                        </p>
+                        <textarea>项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</textarea>
+                        <p>
+                            HTML | CSS | JS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="demoImg">
+                <img src="images/demo_1.jpg" alt="">
+            </div>
+        </div>
+        <div class="program">
+            <div class="demoImg fill"></div>
+            <div class="center-wrap-other">
+                <img class="logoImg" src="images/restaurant.png" alt="">
+                <div class="content">
+                    <div class="bd clearfix">
+                        <h3>项目《移动Web餐厅游戏》</h3>
+                        <span>2023-12-31</span>
+                    </div>
+                    <div class="hd">
+                        <p>
+                            前端Coder | xxxxxxx
+                        </p>
+                        <textarea>项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</textarea>
+                        <p>
+                            HTML | CSS | JS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="demoImg">
+                <img src="images/demo_1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- 互动部分 -->
+    <section class="interplay center-wrap" id="message">
+        <div class="pics-info">
+            <ul>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <i class="iconfont heart">&#xe83f;</i>
+                        <i class="iconfont color-red redheart" style="visibility: hidden;">&#xe85c;</i>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="message-box">
+            <h4>留言板</h4>
+
+            <div class="messageContent" id="messageContent">
+                <div class="user">
+                    <div class="profile">
+                        <div class="profilePhoto"></div>
+                        <span title="Simon">Simon</span>
+                    </div>
+                    <textarea class="content">this is my first message</textarea>
+                </div>
+                <div class="me">
+                    <textarea class="content">nice to meet you</textarea>
+                    <div class="profile">
+                        <div class="profilePhoto"></div>
+                        <span title="Me">Me</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="messageSend">
+                <input type="text" placeholder="留言内容" class="edit1" id="messagecon">
+                <div class="edit2">
+                    <input type="text" placeholder="留言姓名" id="username">
+                    <input id="sendbtn" class="sendbtn" type="button" value="发送">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚部分 -->
+    <footer>
+        <p>&copy;2023 Southwest University 高级简历作业 木头杨先生</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <a href="javascript:;" class="backtotop" id="backtotop">
+        返回<br>顶部
+    </a>
+
+    <script src="js/tab.js"></script>
+    <script src="js/demoImg.js"></script>
+    <script src="js/zan.js"></script>
+    <script src='js/backtoTop.js'></script>
+    <script src="js/sendMessage.js"></script>
+</body>
+
+</html>
